@@ -5,10 +5,13 @@
 ``` table-of-contents
 
 ```
+## 포스팅 연습!
 # [ Dart Overview   ]
 ---
 - Google이 만든 언어
-	=> UI에 최적화, 생상전인 개발환경, Fast on all platforms
+- 완전한 비동기 언어, 이벤트 기반, 동시성 기능 => UI 제작에 최적화
+- 널 안전성, 스프레드 기능, 컬렉션 if문 
+- 자바스크립트로의 완전한 컴파일 지원
 
 
 
@@ -22,7 +25,7 @@
 
 
 ## JIT, AOT
-- Just-In-Time -> dart VM 이 쓴 코드의 결과를 바로 화면에 보여줌 (개발 중일 때 사용)
+- Just-In-Time -> dart VM 이 쓴 코드의 결과를 바로 화면에 보여줌(핫리로드)   =>   개발 중일 때 사용
 - Ahead-In-Time -> 배포할 때 사용(빠름)
 
 
@@ -44,6 +47,8 @@
 
 - 관습적으로 => 함수, 메소드 내부에 지역 변수 선언   =>  var
 	-           => class에서 변수 , property 선언      =>  타입 지정
+
+
 
 
 
